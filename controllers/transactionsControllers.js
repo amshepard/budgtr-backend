@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const transactionArray = require("../models/transaction.model");
+const transactionArray = require("../models/transactions.js");
 
 // Middleware to check if a transaction exists
 function transactionExists(req, res, next) {
